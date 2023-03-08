@@ -1,0 +1,145 @@
+.Post__MOdal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.content__post_modal {
+  width: 100%;
+  max-width: 552px;
+  background-color: white;
+  padding-bottom: 20px;
+  max-height: 90%;
+  height: 90%;
+  overflow: auto;
+
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 32px;
+  bottom: 32px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.create_a_post {
+  padding: 8px 16px 8px 12px;
+  border-bottom: 2px solid whitesmoke;
+}
+.create_a_post_child {
+  font-size: 22px;
+  font-weight: 395;
+  color: rgba(0, 0, 0, 1);
+}
+.create_a_post__profile {
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+}
+.create_a_post__profile > p {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 12px;
+}
+.header__modsl__Icons {
+  height: 54px !important;
+  width: 54px !important;
+}
+.post__Content {
+  margin-top: 8px;
+  padding: 8px 12px 8px 16px;
+  height: 60px;
+}
+
+.post__Content > input {
+  font-size: 18px;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.7);
+  border: 0;
+  outline: none;
+}
+.content__post_modal__bottom {
+  height: 100px;
+}
+.hash_Tag_Button {
+  padding: 8px 12px 4px 16px;
+}
+
+.hash_Tag_Button > Button {
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+}
+.hash_Tag_Button > Button:hover {
+  box-shadow: none !important;
+  background-color: #c4e1ff;
+  color: #0a66c2;
+}
+
+.icon__bottom {
+  padding: 4px 12px 8px 12px;
+}
+.icon__bottom__child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon__logos {
+  display: flex;
+  align-items: center;
+}
+
+.icon__logos > div {
+  height: 45px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition-duration: 300ms;
+}
+.icon__logos > div:hover {
+  background-color: #f3f2ef;
+}
+.icon__logos > div > label > svg,
+.icon__logos > div > svg {
+  fill: #00000099;
+}
+
+.P0st__post__button > Button {
+  border-radius: 32px;
+}
+.P0st__post__button > Button:hover {
+  color: white;
+  font-weight: 500;
+}
+
+.create_a_post {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.close_icon {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 6px;
+}
+.close_icon > svg {
+  fill: #00000099;
+}
+.close_icon:hover {
+  background-color: #f3f2ef;
+}
+.posted__image {
+  padding: 0px 16px;
+  height: 250px;
+  overflow: auto;
+}

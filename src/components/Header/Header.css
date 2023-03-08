@@ -1,0 +1,225 @@
+.headeer {
+  /* background-color: rgb(154, 154, 221); */
+  border-bottom: 1px solid whitesmoke;
+
+  padding: 0;
+  position: sticky;
+  top: 0;
+  /* background-color: white; */
+  z-index: 400;
+}
+
+.heade__r {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+}
+.Header__left__input {
+  display: flex;
+  align-items: center;
+  /* padding: 8px 8px 8px 16px; */
+  border-radius: 3px;
+  background-color: #eef3f8;
+
+  margin-left: 8px;
+  margin-right: auto;
+}
+.Header__left__search {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 16px;
+  margin-left: 16px;
+}
+
+.Header__left__input > input {
+  line-height: 34px;
+  width: 280px;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  margin-left: 8px;
+  transition-duration: 450ms;
+}
+.Header__left__input > input:focus {
+  width: 380px;
+}
+
+.HEader__right {
+  display: flex;
+}
+.active {
+  position: relative;
+}
+.home {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 52px;
+  justify-content: center;
+  width: 80px;
+  cursor: pointer;
+}
+.my_network,
+.jobs,
+.Messaging,
+.notification,
+.My_profile,
+.work {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 52px;
+  justify-content: center;
+  width: 80px;
+  cursor: pointer;
+}
+p {
+  font-size: 12px;
+}
+.header__end__Icons {
+  height: 24px !important;
+  width: 24px !important;
+}
+.Mee__ee {
+  display: flex;
+  align-items: center;
+}
+.My_profile {
+  border-right: 1px solid #e5e7eb;
+}
+
+.work_icon {
+  /* color: #00000099; */
+  color: #9ca3af;
+  transition-duration: 280ms;
+}
+.work_icon:hover {
+  color: black;
+}
+.premium {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 52px;
+  justify-content: center;
+  width: 80px;
+}
+.my_network:hover,
+.jobs:hover,
+.Messaging:hover,
+.notification:hover,
+.My_profile:hover,
+.work:hover {
+  color: black;
+  font-weight: 400;
+  transition-duration: 450ms;
+}
+.home::after {
+  content: "";
+  transform: scaleX(1);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.9);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  transition: transform 0.2s ease-in-out;
+  width: 100%;
+}
+
+.My_profile {
+  position: relative;
+}
+.Profile__Hover__Card {
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  position: absolute;
+  top: 65px;
+  background-color: white;
+  width: 280px;
+  right: 0px;
+  border-radius: 8px;
+  overflow-x: hidden;
+}
+.Profile__Hover__header__prifile {
+  padding: 8px;
+}
+.Hover__header__Icons {
+  height: 52px !important;
+  width: 52px !important;
+  margin-bottom: auto;
+}
+
+.Profile__data {
+  display: flex;
+  align-items: center;
+}
+.profile__Details {
+  margin-left: 12px;
+}
+.profile__Details p:nth-child(1) {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  text-transform: capitalize;
+}
+
+.profile__Details p:nth-child(2),
+.profile__Details p:nth-child(3) {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+
+.ViewProfile {
+  width: 100%;
+  padding: 0px 16px;
+  margin-right: 12px;
+  color: #0a66c2;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+  transition-duration: 250ms;
+  box-shadow: inset 0 0 0 1px #0a66c2;
+  border-radius: 24px;
+  outline: none;
+  border: 0;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  z-index: 1000;
+  background-color: white;
+}
+
+.ViewProfile:hover {
+  background-color: rgba(112, 181, 249, 0.15);
+  box-shadow: inset 0 0 0 2px #0a66c2;
+  color: #0a66c2;
+}
+.Profile__Hover__header__prifile {
+  border-bottom: 1px solid whitesmoke;
+}
+
+.account__List p:nth-child(1) {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 6px 0px 6px 10px;
+}
+
+.account__List p:nth-child(2),
+.account__List p:nth-child(3),
+.account__List p:nth-child(4) {
+  font-size: 16px;
+  margin: 8px 0px 8px 10px;
+  color: #a1a1aa;
+  cursor: pointer;
+}
+
+.account__List p:nth-child(2):hover,
+.account__List p:nth-child(3):hover,
+.account__List p:nth-child(4):hover {
+  text-decoration: underline;
+}
+
+.Acccount {
+  border-bottom: 1px solid whitesmoke;
+  padding: 4px 0px;
+}
